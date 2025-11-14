@@ -202,6 +202,10 @@ import adit from "./tasks/adit/index.js";
   try {
     const akar = adit.squareRoot(25);
     console.log(akar);
+    const genap = adit.ganjilGenap(20);
+    console.log(genap);
+    const ganjil = adit.ganjilGenap(21);
+    console.log(ganjil);
   } catch (error) {
     console.log(error.message);
   }
